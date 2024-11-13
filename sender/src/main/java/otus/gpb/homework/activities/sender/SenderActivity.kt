@@ -7,9 +7,9 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import otus.gpb.homework.activities.receiver.R
 
-const val TITLE_KEY = ""
-const val YEAR_KEY = ""
-const val DESCR_KEY = ""
+const val TITLE_KEY = "title key"
+const val YEAR_KEY = "year key"
+const val DESCR_KEY = "description key"
 
 
 class SenderActivity: AppCompatActivity() {

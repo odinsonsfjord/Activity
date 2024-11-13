@@ -7,9 +7,9 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 
-const val TITLE_KEY = ""
-const val YEAR_KEY = ""
-const val DESCR_KEY = ""
+const val TITLE_KEY = "title key"
+const val YEAR_KEY = "year key"
+const val DESCR_KEY = "description key"
 
 class ReceiverActivity : AppCompatActivity() {
 
@@ -31,7 +31,7 @@ class ReceiverActivity : AppCompatActivity() {
 
             findViewById<TextView>(R.id.titleTextView).text = title
             findViewById<TextView>(R.id.yearTextView).text = year
-            findViewById<TextView>(R.id.titleTextView).text = description
+            findViewById<TextView>(R.id.descriptionTextView).text = description
             findViewById<ImageView>(R.id.posterImageView).setImageDrawable(getDrawable())
 
     }
